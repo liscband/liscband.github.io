@@ -20,16 +20,6 @@
         <script type="text/javascript" src="/assets/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="/assets/js/hammer.min.js"></script>
         <script type="text/javascript" src="/assets/js/minesweeper.min.js"></script>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CKR0BCC8S2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'G-CKR0BCC8S2');
-        </script>
     </head>
 
     <body>
@@ -44,9 +34,10 @@
                 <div>
                     <h6>It's likely you want to do one of the following:</h6>
                     <ul>
-                        <li><a href="blog/">visit my blog</a></li>
-                        <li><a target="_blank" href="mailto:ethanexline@gmail.com">shoot me an email</a></li>
-                        <li><a target="_blank" href="https://github.com/ethanexline">peruse my Github</a></li>
+                        <!-- TODO: change these links -->
+                        <li><a href="blog/">visit the blog</a></li>
+                        <li><a target="_blank" href="mailto:lostinspacecamp540@gmail.com">shoot me an email</a></li>
+                        <li><a target="_blank" href="https://github.com/liscband">peruse my Github</a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/ethan-exline-b9b369201/">investigate my Linkedin</a></li>
                         <li><a target="_blank" href="https://drive.google.com/file/d/17bW6kz267rgSpj6SDlZFR1ulclxqbY2T/view?usp=sharing">ogle my resume</a></li>
                     </ul>
@@ -54,22 +45,22 @@
                     <h6>Or perhaps you were looking to get funky:</h6>
                     <ul>
                         <li><a style="cursor: pointer; text-decoration: underline;" onclick="document.getElementById('slider').style.display = 'block'; this.style.zIndex = (zIndexIncrement() + 1).toString(); return false;">monkey around <br> with the <br> Nostalgia Slider</a></li>
-                        <li><a style="cursor: pointer; text-decoration: underline;" href="/fact.html" target="_blank">sample my <br><i>very</i> dumb <br> Fact API</a></li>
+                        <li><a style="cursor: pointer; text-decoration: underline;" href="/fact.html" target="_blank">get some <br><i>very</i> dumb <br> randomly-generated sentences</a></li>
                     </ul>
                 </div>
 
-                <h6 style="padding-bottom: 0;">Thank you for visiting ethanexline.com.</h6>
+                <h6 style="padding-bottom: 0;">Thank you for visiting liscband.com.</h6>
             </div>
         </div>
 
         <div id="main" style="overflow-y: auto; margin-left: 50px; display: flex; flex-direction: row;">
             <div id="words" class="col-9" style="text-align: center;">
-                <h1 style="padding-top: 25px; margin-bottom: 235px;">Welcome to ethanexline.com, home of, uh, ethanexline.com. Also my blog, How to Waste Time and Be Wrong.</h1>
+                <h1 style="padding-top: 25px; margin-bottom: 235px;">Welcome to liscband.com. Also our blog, Lost in Space Blog.</h1>
 
-                <h2 style="margin-bottom: 250px;">This site was built and is maintained by me, Ethan Exline. I've been a software engineer and full-stack web developer since 2019, and I dang love it.</h2>
+                <h2 style="margin-bottom: 250px;">This site was built by me, Ethan Exline. I am the drummer.</h2>
 
-                <h4 style="padding-bottom: 20px;"><- There's a bunch of Ethan-relevant items and links right there in the sidebar. I encourage you to fiddle with everything and waste a few minutes
-                checking out the cool stuff I've built here - might I recommend the nostalgia slider? Perhaps the Fact API?</h4>
+                <h4 style="padding-bottom: 20px;"><- There's a bunch of LiSC-relevant items and links right there in the sidebar. I encourage you to fiddle with everything and waste a few minutes
+                checking everything out - might I recommend the nostalgia slider? Perhaps the Random Sentence Generator?</h4>
             </div>
         </div>
 
@@ -85,7 +76,7 @@
             </div>
         </a>
 
-        <a id="contactIcon" class="drag" onclick="return false" ondblclick="location='mailto:ethanexline@gmail.com'; return false;" tabindex="1" style="top: 100px">
+        <a id="contactIcon" class="drag" onclick="return false" ondblclick="location='mailto:lostinspacecamp540@gmail.com'; return false;" tabindex="1" style="top: 100px">
             <div class="icon">
                 <div class="icon__inner">
                     <div class="icon__image">
@@ -96,7 +87,7 @@
             </div>
         </a>
 
-        <a id="githubIcon" class="drag" onclick="return false" ondblclick="navigateTo('https://github.com/ethanexline')" tabindex="2" style="top: 170px">
+        <a id="githubIcon" class="drag" onclick="return false" ondblclick="navigateTo('https://github.com/liscband')" tabindex="2" style="top: 170px">
             <div class="icon">
                 <div class="icon__inner">
                     <div class="icon__image">
@@ -146,7 +137,7 @@
                     <div class="icon__image">
                         <img id="factImage" src="assets/images/factXP.png" alt="">
                     </div>
-                    <div class="icon__title">Random Fact</div>
+                    <div class="icon__title">Random Sentence</div>
                 </div>
             </div>
         </a>
@@ -387,7 +378,7 @@
                             </a>
                         </li>
                         <li class="start-item">
-                            <a class="start-item__button7" target="_blank" onmousedown="navigateTo('https://github.com/ethanexline');" ontouchstart="navigateTo('https://github.com/ethanexline');">
+                            <a class="start-item__button7" target="_blank" onmousedown="navigateTo('https://github.com/liscband');" ontouchstart="navigateTo('https://github.com/liscband');">
                                 <div class="start-item__icon">
                                     <img id="githubStart" src="assets/images/github7.png" alt="Github">
                                 </div>
@@ -411,7 +402,7 @@
                             </a>
                         </li>
                         <li class="start-item">
-                            <a class="start-item__button7" onmousedown="navigateTo('mailto:ethanexline@gmail.com');" ontouchstart="navigateTo('mailto:ethanexline@gmail.com');">
+                            <a class="start-item__button7" onmousedown="navigateTo('mailto:lostinspacecamp540@gmail.com');" ontouchstart="navigateTo('mailto:lostinspacecamp540@gmail.com');">
                                 <div class="start-item__icon">
                                     <img id="contactStart" src="assets/images/contact7.png" alt="Contact">
                                 </div>
@@ -429,9 +420,9 @@
                         <li class="start-item">
                             <a class="start-item__button7" target="_blank" onmousedown="navigateTo('/fact.html');" ontouchstart="navigateTo('/fact.html');">
                                 <div class="start-item__icon">
-                                    <img id="factStart" src="assets/images/fact7.png" alt="Random Fact">
+                                    <img id="factStart" src="assets/images/fact7.png" alt="Random Sentence">
                                 </div>
-                                <span>Random Fact</span>
+                                <span>Random Sentence</span>
                             </a>
                         </li>
                         <li class="start-item">
@@ -528,7 +519,7 @@
                     </a>
                 </li>
                 <li class="start-item">
-                    <a class="start-item__buttonXP" target="_blank" onmousedown="navigateTo('https://github.com/ethanexline');" ontouchstart="navigateTo('https://github.com/ethanexline');">
+                    <a class="start-item__buttonXP" target="_blank" onmousedown="navigateTo('https://github.com/liscband');" ontouchstart="navigateTo('https://github.com/liscband');">
                         <div class="start-item__icon">
                             <img id="githubStart" src="assets/images/githubXP.png" alt="Github">
                         </div>
@@ -552,7 +543,7 @@
                     </a>
                 </li>
                 <li class="start-item">
-                    <a class="start-item__buttonXP" onmousedown="navigateTo('mailto:ethanexline@gmail.com');" ontouchstart="navigateTo('mailto:ethanexline@gmail.com');">
+                    <a class="start-item__buttonXP" onmousedown="navigateTo('mailto:lostinspacecamp540@gmail.com');" ontouchstart="navigateTo('mailto:lostinspacecamp540@gmail.com');">
                         <div class="start-item__icon">
                             <img id="contactStart" src="assets/images/contactXP.png" alt="Contact">
                         </div>
@@ -570,9 +561,9 @@
                 <li class="start-item">
                     <a class="start-item__buttonXP" target="_blank" onmousedown="navigateTo('/fact.html');" ontouchstart="navigateTo('/fact.html');">
                         <div class="start-item__icon">
-                            <img id="factStart" src="assets/images/factXP.png" alt="Random Fact">
+                            <img id="factStart" src="assets/images/factXP.png" alt="Random Sentence">
                         </div>
-                        <span>Random Fact</span>
+                        <span>Random Sentence</span>
                     </a>
                 </li>
                 <li class="start-item">
@@ -607,7 +598,7 @@
                     </a>
                 </li>
                 <li class="start-item">
-                    <a class="start-item__button" target="_blank" onmousedown="navigateTo('https://github.com/ethanexline');" ontouchstart="navigateTo('https://github.com/ethanexline');">
+                    <a class="start-item__button" target="_blank" onmousedown="navigateTo('https://github.com/liscband');" ontouchstart="navigateTo('https://github.com/liscband');">
                         <div class="start-item__icon">
                             <img id="githubStart" src="assets/images/github.png" alt="Github">
                         </div>
@@ -631,7 +622,7 @@
                     </a>
                 </li>
                 <li class="start-item">
-                    <a class="start-item__button" onmousedown="navigateTo('mailto:ethanexline@gmail.com');" ontouchstart="navigateTo('mailto:ethanexline@gmail.com');">
+                    <a class="start-item__button" onmousedown="navigateTo('mailto:lostinspacecamp540@gmail.com');" ontouchstart="navigateTo('mailto:lostinspacecamp540@gmail.com');">
                         <div class="start-item__icon">
                             <img id="contactStart" src="assets/images/contact.png" alt="Contact">
                         </div>
@@ -649,9 +640,9 @@
                 <li class="start-item">
                     <a class="start-item__button" target="_blank" ontouchstart="navigateTo('/fact.html');" onmousedown="navigateTo('/fact.html');">
                         <div class="start-item__icon">
-                            <img id="factStart" src="assets/images/fact.png" alt="Random Fact">
+                            <img id="factStart" src="assets/images/fact.png" alt="Random Sentence">
                         </div>
-                        <span>Random Fact</span>
+                        <span>Random Sentence</span>
                     </a>
                 </li>
                 <li class="start-item">

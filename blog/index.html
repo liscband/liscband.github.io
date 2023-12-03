@@ -12,11 +12,11 @@ layout: default
     <div class="bio">
 	    {{ site.description }}
         <p>
-	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
+	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About Lost in Space Camp</a>
         <br>
         <a href="/">> If you want to return to the landing page for some reason</a>
         <br>
-        <a href="/fact.html">> To peep my dumb fact API page</a>
+        <a href="/fact.html">> If you'd like to recieve a ridiculous randomly-generated sentence</a>
         </p>
     </div>
 </section>
@@ -36,7 +36,7 @@ layout: default
     {% for post in site.posts %}
         {% assign total = total | plus: 1 %}
     {% endfor %}
-    <input type="search" id="search-input" placeholder="Search through all {{ total }} of my posts" aria-label="Search">
+    <input type="search" id="search-input" placeholder="Search through all {{ total }} of our posts" aria-label="Search">
     <ul id="search-results" role="list"></ul>
 </div>
 

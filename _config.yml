@@ -1,48 +1,24 @@
-site: ethanexline.com
-title: How to Waste Time and be Wrong
-greetings: How to Waste Time and be Wrong&trade;
+site: liscband.com
+title: Lost in Space Blog
+greetings: Ay
 description: >-
-  Welcome to the obligatory blog area 👋
+  Welcome to the band blog 👋
 lang: en-US
 timezone: America/New_York
-repo: https://github.com/ethanexline/ethanexline.github.io # site repo [optional]
+repo: https://github.com/liscband/liscband.github.io # site repo [optional]
 # data-theme: dark # default theme "dark" | "light"
 # discus-identifier: ethanexline-com.disqus.com link #old
-staticman_url: https://ethanexline-staticman.herokuapp.com/v2/entry/ethanexline/ethanexline.github.io/master/comments
-comments: true
-
-# recaptcha stuff (production)
-reCaptcha:
-  enabled: true
-  siteKey: "6LcAnwodAAAAAN09cey2tM_r8HnSjGNAQ4Wumvgs"
-  secret: "fE3vGj5wNPSyisov8t+zoPQdAC85TRH0E31iLXu+RkRFQ/kcgVPoSxHIBd5MiV5FANGss6M/LKk5gmkrXbjmwKnXvCSiKDLWsGm2aaaqQuJXzNE1srvvKlbOagI1pBIg/op4PAueeUSK+kkCPyVs6+vHAWwigcl1ePFSz6dPIxvvaHZzITqJTX6EK8Sbn/J0em0+laS5ooSWcfuvrC79ua9p0b4gxRuaZobe6EHU0kqbvKbgIggRKsNOkPHw9dasCFbKBw1NyxB52fmPmzP8aQC0dxYEDzfNvRUyCusZQ+5lAG2PyWKyzIgsWOjLlYMvHsql8cUozO+6CprevO2Idn6M/2agk93xUVLAA3nYmdyCtxbtr4t5IBZwoCixgz1oP6xt/zl3kWPBobY3ij8fernqkzetMi41Kn44nv89jfV9pcJlNK5pcrZYh7vYGn8YkNQwenNC/621gDIlX8wHabReIlSM7/PFxMxuEE1sfogg1nvXgci3vrEOnrhAbH6HtjbJA9w79Kj/hdSpu9ije39aAJXc35OVSu7/NscYeI6yVIN9HBgHqdzqIXNe97fyWZ5qTUL3TDafxwgieAE180TGHuxrtYsHitdE3lfFqR/fPzNwm+OxhOPQia50+a8VcnhJr0sJqFEv8MpU75WjYjEgJA7/u91+SrrVJ0RpeCU="
-
-# recaptcha stuff (testing)
-# reCaptcha:
-#   enabled: true
-#   siteKey: "6LewPg0dAAAAAM17kJ3zvXX3wIM8OC3s1l-xjWm4"
-#   secret: "y1hIQm41pc4EusyFGP776bQj+XxSwryv1ginWvWsYPxbXgkpZK7sDOSOSFRXVq6QqXqSLHb2GZvYUXiQxrfOVBnoFova/Go606uo0aVsj7wG6blNQdn3NAf8oxPfvySaGiIv3inw+IMXtzDhE2Xsvfyo9kX66PLHBYQYwx2THjX3AuCA93qicdvZk8PCybPfRuNAXAswEaREzCUS2cwOlK6DYOPEMdWoy9ZwjLh37mOfUy1loIvVH/gKiKKPsIyDnPL2aFCcVMhRPZrXRguNaPw16tTQ1r0s+YcifFx55LJGY7dbVCTQgYHi0JfP7qXH1IrYtbmKMbkjWB2rshIzWU/Ouwmk1vyUnEF1vmPMskgcmgCsAfdysQ3X4jh39wAcHxm5pGgVOaNQiomWEPgMZxEF85uwkFEDtvmkwAieo5A+awmsqwXXyPeYG+uF3MLEMejoCJtf4Ff+Vs4kJUnAEt7FmYCRZTTtejcCRAaKuyirbsJc/KhQYBth5wIOsRN1GX265KZw6e+V+S+zpMNtUrsxeSXsEZLv2dyGlj0QgeB9Q941+Yi+OguHpIQUp2dHE+d7cg04Bb+9hdGm9V4rIYa62qNO+/MttWmXBu+HCmK/tiehtbawhkacAwKz/WrBbAP3tBlXVHyPGSpheNO5Rki6SAoUyhALcrHK1ERdt3I="
-
-author:
-  name: Ethan Exline
-  bio: doing my best out here, in spite of how it looks
-  userpicture: /assets/images/me.webp
-  username: Ethan # general username
-  github: ethanexline # github username
-  twitter: HTWTABW # twitter username
-  email: ethanexline@gmail.com # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://www.ethanexline.com" # Domain Name of host.
+url: "https://www.liscband.com" # Domain Name of host.
 baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. always add / in front.
 permalink: pretty
 
 # local
-#url: "http://localhost:4000"
-# baseurl: "" # 
+# url: "http://localhost:4000"
 
 markdown: kramdown
 kramdown:
@@ -105,4 +81,3 @@ defaults:
 relative_links:
   enabled:     true
   collections: false
-
